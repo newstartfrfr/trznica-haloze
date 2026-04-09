@@ -1,8 +1,127 @@
-<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="800" height="600" rx="36" fill="#F7F3E9"/>
-<rect x="80" y="80" width="640" height="440" rx="32" fill="#7aa889" opacity="0.18"/>
-<circle cx="400" cy="250" r="120" fill="#7aa889"/>
-<rect x="210" y="398" width="380" height="36" rx="18" fill="#204F3D" opacity="0.12"/>
-<text x="400" y="260" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">Pohod</text>
-<text x="400" y="470" text-anchor="middle" fill="#183027" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Digitalna tržnica Haloze</text>
-</svg>
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt | Digitalna tržnica Haloze</title>
+  <meta name="description" content="Kontakt in prijava ponudnikov za Digitalno tržnico Haloze." />
+  <meta property="og:title" content="Digitalna tržnica Haloze" />
+  <meta property="og:description" content="Lokalni izdelki, storitve in doživetja Haloz." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://newstartfrfr.github.io/trznica-haloze/assets/img/og-image.svg" />
+  <meta property="og:url" content="https://newstartfrfr.github.io/trznica-haloze/contact.html" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="canonical" href="https://newstartfrfr.github.io/trznica-haloze/contact.html" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="Logo Digitalna tržnica Haloze" />
+        <span>Digitalna tržnica Haloze</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Domov</a>
+        <a href="shop.html">Trgovina</a>
+        <a href="about.html">O projektu</a>
+        <a href="contact.html" class="active">Kontakt</a>
+        <a href="checkout.html" class="cart-link">Košarica <span data-cart-count>0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small">
+      <div class="container narrow">
+        <p class="eyebrow">Kontakt</p>
+        <h1>Piši nam ali oddaj prijavo za ponudnika</h1>
+        <p class="lead">Ta verzija je statična, zato je obrazec pripravljen za pošiljanje prek e-pošte.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container form-grid">
+        <div class="card">
+          <h2>Splošni kontakt</h2>
+          <form id="contactForm" class="stack-form">
+            <label>Ime in priimek
+              <input type="text" name="name" required />
+            </label>
+            <label>E-pošta
+              <input type="email" name="email" required />
+            </label>
+            <label>Zadeva
+              <input type="text" name="subject" required />
+            </label>
+            <label>Sporočilo
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Pripravi e-pošto</button>
+          </form>
+          <p class="form-note">Klik odpre tvoj privzeti e-mail program z že pripravljenim sporočilom.</p>
+        </div>
+
+        <div class="card" id="ponudnik">
+          <h2>Prijava ponudnika</h2>
+          <form id="vendorForm" class="stack-form">
+            <label>Ime ponudnika / kmetije / obrti
+              <input type="text" name="vendorName" required />
+            </label>
+            <label>Kontaktna oseba
+              <input type="text" name="contactPerson" required />
+            </label>
+            <label>E-pošta
+              <input type="email" name="email" required />
+            </label>
+            <label>Telefon
+              <input type="text" name="phone" />
+            </label>
+            <label>Kaj ponujaš
+              <textarea name="offer" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Pripravi prijavo</button>
+          </form>
+          <p class="form-note">V datotekah zamenjaj e-poštni naslov s svojim produkcijskim naslovom.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="index.html">
+          <img src="assets/img/logo.svg" alt="Logo Digitalna tržnica Haloze" />
+          <span>Digitalna tržnica Haloze</span>
+        </a>
+        <p>Preprosta statična spletna trgovina za lokalno ponudbo Haloz.</p>
+      </div>
+      <div>
+        <h3>Navigacija</h3>
+        <ul>
+          <li><a href="shop.html">Trgovina</a></li>
+          <li><a href="about.html">O projektu</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <ul>
+          <li><a href="mailto:info@digitalnatrznicahaloze.si">info@digitalnatrznicahaloze.si</a></li>
+          <li><a href="tel:+38670000000">+386 70 000 000</a></li>
+          <li>Haloze, Slovenija</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/forms.js"></script>
+</body>
+</html>
