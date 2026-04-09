@@ -1,70 +1,9 @@
-<!DOCTYPE html>
-<html lang="sl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Izdelek | Digitalna tržnica Haloze</title>
-  <meta name="description" content="Podrobnosti o lokalnem izdelku iz Haloz." />
-  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html">
-        <img src="assets/img/logo.svg" alt="Logo Digitalna tržnica Haloze" />
-        <span>Digitalna tržnica Haloze</span>
-      </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">☰</button>
-      <nav id="site-nav" class="site-nav">
-        <a href="index.html">Domov</a>
-        <a href="shop.html" class="active">Trgovina</a>
-        <a href="about.html">O projektu</a>
-        <a href="contact.html">Kontakt</a>
-        <a href="checkout.html" class="cart-link">Košarica <span data-cart-count>0</span></a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="section">
-      <div class="container" id="productPage"></div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <a class="brand brand-footer" href="index.html">
-          <img src="assets/img/logo.svg" alt="Logo Digitalna tržnica Haloze" />
-          <span>Digitalna tržnica Haloze</span>
-        </a>
-        <p>Preprosta statična spletna trgovina za lokalno ponudbo Haloz.</p>
-      </div>
-      <div>
-        <h3>Navigacija</h3>
-        <ul>
-          <li><a href="shop.html">Trgovina</a></li>
-          <li><a href="about.html">O projektu</a></li>
-          <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Kontakt</h3>
-        <ul>
-          <li><a href="mailto:info@digitalnatrznicahaloze.si">info@digitalnatrznicahaloze.si</a></li>
-          <li><a href="tel:+38670000000">+386 70 000 000</a></li>
-          <li>Haloze, Slovenija</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/product.js"></script>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://newstartfrfr.github.io/trznica-haloze/</loc></url>
+  <url><loc>https://newstartfrfr.github.io/trznica-haloze/shop.html</loc></url>
+  <url><loc>https://newstartfrfr.github.io/trznica-haloze/about.html</loc></url>
+  <url><loc>https://newstartfrfr.github.io/trznica-haloze/contact.html</loc></url>
+  <url><loc>https://newstartfrfr.github.io/trznica-haloze/checkout.html</loc></url>
+  <url><loc>https://newstartfrfr.github.io/trznica-haloze/product.html</loc></url>
+</urlset>
