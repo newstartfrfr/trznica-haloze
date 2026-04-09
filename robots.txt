@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trgovina | Digitalna tržnica Haloze</title>
+  <meta name="description" content="Katalog lokalnih izdelkov in doživetij iz Haloz." />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="Logo Digitalna tržnica Haloze" />
+        <span>Digitalna tržnica Haloze</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Domov</a>
+        <a href="shop.html" class="active">Trgovina</a>
+        <a href="about.html">O projektu</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="checkout.html" class="cart-link">Košarica <span data-cart-count>0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small">
+      <div class="container narrow">
+        <p class="eyebrow">Spletna trgovina</p>
+        <h1>Izberi lokalne izdelke, storitve in doživetja Haloz</h1>
+        <p class="lead">Filtriraj ponudbo, dodaj artikle v košarico in pošlji povpraševanje po meri.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar">
+          <input type="search" id="searchInput" placeholder="Išči po imenu, kategoriji ali ponudniku" />
+          <select id="categoryFilter">
+            <option value="all">Vse kategorije</option>
+          </select>
+        </div>
+        <div class="results-meta">
+          <span id="resultsCount">0 izdelkov</span>
+        </div>
+        <div class="product-grid" id="shopGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="index.html">
+          <img src="assets/img/logo.svg" alt="Logo Digitalna tržnica Haloze" />
+          <span>Digitalna tržnica Haloze</span>
+        </a>
+        <p>Preprosta statična spletna trgovina za lokalno ponudbo Haloz.</p>
+      </div>
+      <div>
+        <h3>Navigacija</h3>
+        <ul>
+          <li><a href="shop.html">Trgovina</a></li>
+          <li><a href="about.html">O projektu</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <ul>
+          <li><a href="mailto:info@digitalnatrznicahaloze.si">info@digitalnatrznicahaloze.si</a></li>
+          <li><a href="tel:+38670000000">+386 70 000 000</a></li>
+          <li>Haloze, Slovenija</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/shop.js"></script>
+</body>
+</html>
